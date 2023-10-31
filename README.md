@@ -33,6 +33,7 @@ To run this code, you'll need the following software installed on your system:
 ## Usage
 
 1. Place your real estate data in a CSV file and save it in the project directory. Ensure that the CSV file has a column named "Y house price of unit area."
-2. Open the Jupyter Notebook or your preferred IDE and run the `real_estate_analysis.ipynb` file.
-3. The code will load the dataset, create a histogram, and display it in your IDE.
-4. Customize the plot as needed by adjusting the number of bins, axis labels, and title.
+2. Ensure that the CSV file includes relevant columns, including "Y house price of unit area," "X2 house age," "X3 distance to the nearest MRT station," "X4 number of convenience stores," "X5 latitude," and "X6 longitude."
+3. Open the Jupyter Notebook or your preferred IDE and run the `real_estate_analysis.ipynb` file.
+4. The code will load the dataset, create a histogram, and display it in your IDE.
+5. Customize the plot as needed by adjusting the number of bins, axis labels, and title.
